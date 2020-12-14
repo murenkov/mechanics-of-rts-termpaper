@@ -29,20 +29,32 @@
 \usepackage{icomma}
 \usepackage{euscript}
 \usepackage{mathrsfs}
+\usepackage{gensymb}
+
+%% Extra work with chemistry
+\usepackage{bpchem}
 
 %% My commands
 \DeclareMathOperator{\sgn}{\mathop{sgn}}
 
 %%
-\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
-{\hbox{$\mathsurround=Opt #1$}}{}}
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=Opt #1$}}{}}
+\newcommand*{\romannum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
 %% Images
 \usepackage{graphicx}
-% \graphicspath{{images/}{images2/}}
+\graphicspath{
+    {images/chapter1/}
+    {images/chapter2/}
+    {images/chapter3/}
+    {images/chapter4/}
+}
 \setlength\fboxsep{3pt}
 \setlength\fboxrule{1pt}
 \usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{caption}
+\renewcommand\thesubfigure{\asbuk{subfigure}}
 
 %% Tables
 \usepackage{array,tabularx,tabulary,booktabs}
@@ -61,6 +73,8 @@
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
 
+\usepackage[shortcuts]{extdash}
+\usepackage{verbatim}
 \usepackage{moreenum}
 
 %% Page
@@ -92,6 +106,8 @@
 \renewcommand{\emptyset}{\varnothing}
 
 \usepackage{titlesec}
-\titleformat{\section}{\LARGE\normalfont\bfseries}{Часть \thesection}{1em}{}
-\titleformat{\subsection}{\large\normalfont\bfseries}{Задача \thesubsection}{1em}{}
+\titleformat{\chapter}{\LARGE\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\section}{\LARGE\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsection}{\large\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\filcenter}{}{1em}{}
 
