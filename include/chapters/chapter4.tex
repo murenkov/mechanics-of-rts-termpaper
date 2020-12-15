@@ -15,8 +15,8 @@
     \item коэффициент демпфирования $\xi = 0.3$.
     \item степень жёсткости внешних воздействий:
         \begin{itemize}
-            \item нижняя граница частоты возбуждающей вибрации $f_н = 30~Гц$;
-            \item верхняя граница частоты возбуждающей вибрации $f_н = 500~Гц$;
+            \item нижняя граница частоты возбуждающей вибрации $f_{н} = 30~Гц$;
+            \item верхняя граница частоты возбуждающей вибрации $f_{в} = 500~Гц$;
             \item виброускорение вибрации $a_0 = 6g$;
             \item длительность ударного импульса $\tau = 4~мс$;
             \item амплитуда ударного импульса $a = 15g$.
@@ -29,13 +29,12 @@
     \centering
     \begin{subfigure}[t]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{component-sideview}
+        \includegraphics[width=\textwidth]{component-sideview.pdf}
         \caption{}
     \end{subfigure}
-
     \begin{subfigure}[t]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{component-topview}
+        \includegraphics[width=\textwidth]{component-topview.pdf}
         \caption{}
     \end{subfigure}
     \caption{Система виброизоляторов: а) вид сбоку, б) вид сверху}
@@ -46,8 +45,8 @@
 \subsection{Статический расчёт системы ВИ}
 1. Определим предварительно максимальную амплитуду вибрации основания:
 \[
-    A_{осн} = \frac{a_0}{\omega_Н^2}
-            = \frac{6g}{(2 \pi f_н)^2}
+    A_{осн} = \frac{a_0}{\omega_{Н}^2}
+            = \frac{6g}{(2 \pi f_{н})^2}
             = \frac{6 \cdot 10000}{(2 \pi 30)^2}
             = 1.7~мм.
 \]
@@ -106,18 +105,18 @@
 
 3. Рассчитаем коэффициенты амортизации по формуле
 \[
-    K_А = \frac{\sqrt{1 + (2 \xi \nu)^2}}{\sqrt{(1 - \nu^2)^2 + (2 \xi \nu)^2}}
+    K_{А} = \frac{\sqrt{1 + (2 \xi \nu)^2}}{\sqrt{(1 - \nu^2)^2 + (2 \xi \nu)^2}}
 \]
 и представим в виде таблицы (табл. \ref{tab:amortisation_coeffs}).
 
 \begin{table}[!h]
     \centering
-    \caption{Зависимость коэффициента амортизации $K_А$ от коэффициента рассогласования $\nu$}
+    \caption{Зависимость коэффициента амортизации $K_{А}$ от коэффициента рассогласования $\nu$}
     \label{tab:amortisation_coeffs}
     \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
         \hline
         $\nu$  & 0    & 0.5  & 1    & 1.4  & 2    & 3    & 4    & 5    \\ \hline
-        $K_А$  & 1.00 & 1.29 & 1.94 & 1.02 & 0.48 & 0.25 & 0.17 & 0.13 \\ \hline
+        $K_{А}$  & 1.00 & 1.29 & 1.94 & 1.02 & 0.48 & 0.25 & 0.17 & 0.13 \\ \hline
     \end{tabular}
 \end{table}
 
@@ -129,7 +128,7 @@
         \begin{axis}[
             title={АЧХ},
             xlabel={Коэффициент рассогласования $\nu$},
-            ylabel={Коэффициент амортизации $K_А$},
+            ylabel={Коэффициент амортизации $K_{А}$},
             xmin=0,
             xmax=5,
             ymin=0,
@@ -160,16 +159,16 @@
     \label{fig:frequency-response}
 \end{figure}
 
-4. Определяем максимальную амплитуду колебаний блока на низшей частоте вибраций $f_н = 30~Гц$ при $\nu = \frac{f_н}{f_0} = \frac{30}{15.1} \approx 2.0$ и $K_А = 0.5$:
+4. Определяем максимальную амплитуду колебаний блока на низшей частоте вибраций $f_{н} = 30~Гц$ при $\nu = \frac{f_{н}}{f_0} = \frac{30}{15.1} \approx 2.0$ и $K_{А} = 0.5$:
 \[
-    A_{вын} = K_А \cdot A_{осн}
+    A_{вын} = K_{А} \cdot A_{осн}
     = 0.5 \cdot 1.7
     = 0.85~мм.
 \]
 
 Максимальное ускорение, действующее внутри блока, составит:
 \[
-    a_{\max} = K_А \cdot a_0
+    a_{\max} = K_{А} \cdot a_0
     = 0.5 \cdot 6g
     = 3g.
 \]
@@ -180,7 +179,7 @@
 \subsection{Рассчёт системы ВИ на действие удара}
 1. Рассчитаем условную частоту ударного импульса:
 \[
-    \omega_у
+    \omega_{у}
     = \frac{\pi}{\tau}
     = \frac{\pi}{4 \cdot 10^{-3}}
     \approx 785.4.
@@ -188,14 +187,14 @@
 и коэффициента расстройки:
 \[
     \nu
-    = \frac{\omega_у}{\omega_0}
+    = \frac{\omega_{у}}{\omega_0}
     = \frac{785.4}{2 \pi \cdot 15.1}
     \approx 8.3.
 \]
 
 2. Определим коэффициент передачи удара:
 \[
-    K_у
+    K_{у}
     = \frac{2 \nu}{\nu^2 - 1} \cos \frac{\pi}{2 \nu}
     = \frac{2 \cdot 8.3}{8.3^2 - 1} \cos \frac{\pi}{2 \cdot 8.3}
     = 0.24.
@@ -204,7 +203,7 @@
 3. Определим амплитуду ускорения аппарата:
 \[
     \ddot{x}_{\max}
-    = a \cdot K_у
+    = a \cdot K_{у}
     = 15 g \cdot 0.24
     = 3.6 g.
 \]
@@ -212,7 +211,7 @@
 4. Определим максимальное относительное перемещение:
 \[
     x_{\max}
-    = \frac{a \cdot K_у}{\omega_0^2}
+    = \frac{a \cdot K_{у}}{\omega_0^2}
     = \frac{3.6 g}{\left(2 \pi \cdot 15.1\right)^2}
     = \frac{3.6 \cdot 10000}{\left(2 \pi \cdot 15.1\right)^2}
     \approx 4.0~мм.
