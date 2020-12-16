@@ -27,17 +27,23 @@
 
 \begin{figure}[!h]
     \centering
-    \begin{subfigure}[t]{0.5\textwidth}
+    \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{component-sideview.pdf}
-        \caption{}
+        \caption{} 
+        \label{fig:component-sideview}
     \end{subfigure}
-    \begin{subfigure}[t]{0.5\textwidth}
+    \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{component-topview.pdf}
         \caption{}
+        \label{fig:component-toview}
     \end{subfigure}
-    \caption{Система виброизоляторов: а) вид сбоку, б) вид сверху}
+    \caption{Система виброизоляторов:
+        а "--- вид сбоку;
+        б "--- вид сверху.
+    }
+    \label{fig:component}
 \end{figure}
 
 \section{Решение}
@@ -111,7 +117,7 @@
 
 \begin{table}[!h]
     \centering
-    \caption{Зависимость коэффициента амортизации $K_{А}$ от коэффициента рассогласования $\nu$}
+    \caption{Зависимость коэффициента амортизации $K_{А}$ от коэффициента рассогласования $\nu$.}
     \label{tab:amortisation_coeffs}
     \begin{tabular}{|l|c|c|c|c|c|c|c|c|}
         \hline
@@ -155,7 +161,7 @@
             % \node[right] at (axis cs: 1.1, 2){$(1, 1.94)$};
         \end{axis}
     \end{tikzpicture}
-    \caption{АЧХ}
+    \caption{АЧХ.}
     \label{fig:frequency-response}
 \end{figure}
 

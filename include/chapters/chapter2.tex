@@ -22,16 +22,25 @@
         $\lambda = 630 \text{ нм} = 0.63 \cdot 10^{-3} \text{ мм}$.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.5\linewidth]{assemble.pdf}
-    \caption{Соединение с помощью пайки или приклейки}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\linewidth]{flexed-assemble.pdf}
-    \caption{Изгиб}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{assemble.pdf}
+        \caption{}
+        \label{fig:assemble}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{flexed-assemble.pdf}
+        \caption{}
+        \label{fig:flexed-assemble}
+    \end{subfigure}
+    \caption{Соединение с помощью пайки или приклейки:
+    a "--- без изгиба;
+    б "--- изгиб.
+    }
+    \label{fig:assembles}
 \end{figure}
 
 \section{Решение}
@@ -44,7 +53,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.4\linewidth]{flexed-unface.pdf}
-    \caption{Вид изгиба в сечении}
+    \caption{Вид изгиба в сечении.}
     \label{fig:flexed-unface}
 \end{figure}
 
@@ -59,8 +68,8 @@
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.3\linewidth]{neutral-layer.pdf}
-    \caption{Положение нейтрального слоя}
+    \includegraphics[width=0.5\linewidth]{neutral-layer.pdf}
+    \caption{Положение нейтрального слоя.}
     \label{fig:neutral-layer}
 \end{figure}
 
@@ -83,7 +92,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{free-surface.pdf}
-    \caption{Расположение точек на свободных поверхностях}
+    \caption{Расположение точек на свободных поверхностях.}
     \label{fig:free-surface}
 \end{figure}
 
@@ -118,8 +127,8 @@
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.3\linewidth]{normal-forces.pdf}
-    \caption{Нормальные силы}
+    \includegraphics[width=0.5\linewidth]{normal-forces.pdf}
+    \caption{Нормальные силы.}
     \label{fig:normal-forces}
 \end{figure}
 
@@ -208,7 +217,10 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\linewidth]{epure.pdf}
-    \caption{Эпюры распределения напряжений по толщине сборки: а "--- по короткой стороне, б "--- по длинной стороне}
+    \caption{Эпюры распределения напряжений по толщине сборки:
+        а "--- по короткой стороне;
+        б "--- по длинной стороне.
+    }
     \label{fig:epure}
 \end{figure}
 
