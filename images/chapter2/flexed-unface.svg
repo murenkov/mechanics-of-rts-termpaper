@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7610965"
-     inkscape:cx="498.15133"
-     inkscape:cy="518.75689"
+     inkscape:zoom="0.88054825"
+     inkscape:cx="335.86328"
+     inkscape:cy="477.19843"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -75,10 +75,6 @@
        id="path883-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 50.075136,136.02927 H 156.01036"
-       id="path900" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 102.26796,108.59294 h 69.72107"
        id="path902" />
     <path
@@ -89,13 +85,9 @@
        style="fill:none;stroke:#000000;stroke-width:0.263053px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 102.09215,169.01063 69.33778,114.68682"
        id="path906" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 166.34918,108.55549 V 125.5939"
-       id="path908" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:italic;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:Georgia;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'Georgia, Italic';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
        x="168.58626"
        y="119.76348"
        id="text912"><tspan
@@ -103,17 +95,17 @@
          id="tspan910"
          x="168.58626"
          y="119.76348"
-         style="stroke-width:0.264583">𝛿</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Georgia, Italic';font-family:Georgia;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-size:10.58330002px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">𝛿</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="83.075096"
-       y="159.92491"
+       x="89.930862"
+       y="164.94925"
        id="text916"><tspan
          sodipodi:role="line"
-         x="83.075096"
-         y="159.92491"
-         style="stroke-width:0.264583"
+         x="89.930862"
+         y="164.94925"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Georgia;-inkscape-font-specification:'Georgia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          id="tspan918">ρ</tspan></text>
     <text
        xml:space="preserve"
@@ -137,28 +129,6 @@
          x="104.41991"
          y="143.81703"
          style="stroke-width:0.264583" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="101.1137"
-       y="145.97279"
-       id="text932"><tspan
-         sodipodi:role="line"
-         x="101.1137"
-         y="145.97279"
-         style="stroke-width:0.264583"
-         id="tspan934">D</tspan></text>
-    <g
-       id="g944">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 6.014646,1.61162"
-         id="path938" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 5.836103,-1.56378"
-         id="path940" />
-    </g>
     <g
        id="g944-6"
        transform="rotate(57.503036,79.156311,142.91252)"
@@ -174,40 +144,76 @@
          id="path940-5" />
     </g>
     <g
-       id="g944-6-3"
-       transform="rotate(180,103.04275,136.02927)">
+       id="g871">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 6.014646,1.61162"
-         id="path938-7-5" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 5.836103,-1.56378"
-         id="path940-5-6" />
+         d="M 50.075136,136.02927 H 156.01036"
+         id="path900" />
+      <g
+         id="g944">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 6.014646,1.61162"
+           id="path938" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 5.836103,-1.56378"
+           id="path940" />
+      </g>
+      <g
+         id="g944-6-3"
+         transform="rotate(180,103.04275,136.02927)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 6.014646,1.61162"
+           id="path938-7-5" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 5.836103,-1.56378"
+           id="path940-5-6" />
+      </g>
     </g>
     <g
-       id="g944-6-2"
-       transform="matrix(0,-0.66332934,1.007322,0,29.323725,158.81154)">
+       id="g880">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 6.014646,1.61162"
-         id="path938-7-9" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 5.836103,-1.56378"
-         id="path940-5-1" />
+         d="M 166.34918,108.55549 V 125.5939"
+         id="path908" />
+      <g
+         id="g944-6-2"
+         transform="matrix(0,-0.66332934,1.007322,0,29.323725,158.81154)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 6.014646,1.61162"
+           id="path938-7-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 5.836103,-1.56378"
+           id="path940-5-1" />
+      </g>
+      <g
+         id="g944-6-2-3"
+         transform="matrix(0,0.66332933,-1.007322,0,303.37446,75.339184)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 6.014646,1.61162"
+           id="path938-7-9-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 50.075136,136.02927 5.836103,-1.56378"
+           id="path940-5-1-0" />
+      </g>
     </g>
-    <g
-       id="g944-6-2-3"
-       transform="matrix(0,0.66332933,-1.007322,0,303.37446,75.339184)">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 6.014646,1.61162"
-         id="path938-7-9-6" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.075136,136.02927 5.836103,-1.56378"
-         id="path940-5-1-0" />
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:'Georgia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="96.686569"
+       y="145.1841"
+       id="text912-6"><tspan
+         sodipodi:role="line"
+         id="tspan910-3"
+         x="96.686569"
+         y="145.1841"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Georgia;-inkscape-font-specification:'Georgia, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">D</tspan></text>
   </g>
 </svg>
